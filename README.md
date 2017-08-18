@@ -1,6 +1,6 @@
 # Insight UI
 
-A Bitcoin blockchain explorer web application service for [Bitcore Node](https://github.com/bitpay/bitcore-node) using the [Insight API](https://github.com/str4d/insight-api-zcash).
+A Hush blockchain explorer web application service for [Hush Bitcore Node](https://github.com/MyHush/bitcore-node-hush) using the [Hush Insight API](https://github.com/MyHush/insight-api-hush).
 
 ## Quick Start
 
@@ -11,15 +11,15 @@ Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g bitcore-node
+npm install -g bitcore-node-hush
 bitcore-node create mynode
 cd mynode
-bitcore-node install insight-api
-bitcore-node install insight-ui
+bitcore-node install insight-api-hush
+bitcore-node install insight-ui-hush
 bitcore-node start
 ```
 
-Open a web browser to `http://localhost:3001/insight/`
+Open a web browser to `http://localhost:9999`
 
 ## Development
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/str4d/insight-api-zcash) configuration and end-points, go to [Insight API GitHub repository](https://github.com/str4d/insight-api-zcash).
+For more details about the [Insight API](https://github.com/MyHushMyHush/insight-api-hush) configuration and end-points, go to [Insight API GitHub repository](https://github.com/MyHushMyHush/insight-api-hush).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/str4d/insight-ui-zcash).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/MyHushMyHush/insight-ui-hush).
 
 
 ## License

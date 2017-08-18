@@ -1,7 +1,7 @@
 {
   "name": "insight-ui-hush",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the hush network and build your own services with it.",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/MyHush/insight-ui-hush.git"
